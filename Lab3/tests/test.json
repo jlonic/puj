@@ -1,0 +1,13 @@
+{
+  "broker" : "broker",
+  "clientId" : "clientid",
+  "lista" : [ {
+    "data" : "testSensor",
+    "dataType" : "int16",
+    "factor" : 1,
+    "lowerLimit" : -10.0,
+    "upperLimit" : 10.0,
+    "unitOfMeasurement" : "unit",
+    "topic" : "topic"
+  } ]
+}
