@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "firstName": "ime1",
+    "lastName": "prezime1",
+    "address": {
+      "id": 1,
+      "city": "grad1",
+      "street": "ulica1"
+    },
+    "device": {
+      "id": 0,
+      "consumption": null
+    }
+  },
+  {
+    "id": 2,
+    "firstName": "ime2",
+    "lastName": "prezime2",
+    "address": {
+      "id": 2,
+      "city": "grad2",
+      "street": "ulica2"
+    },
+    "device": {
+      "id": 0,
+      "consumption": null
+    }
+  },
+  {
+    "id": 3,
+    "firstName": "ime3",
+    "lastName": "prezime3",
+    "address": {
+      "id": 3,
+      "city": "grad3",
+      "street": "ulica3"
+    },
+    "device": {
+      "id": 0,
+      "consumption": null
+    }
+  },
+  {
+    "id": 4,
+    "firstName": "ime4",
+    "lastName": "prezime4",
+    "address": {
+      "id": 4,
+      "city": "grad4",
+      "street": "ulica4"
+    },
+    "device": {
+      "id": 0,
+      "consumption": null
+    }
+  },
+  {
+    "id": 5,
+    "firstName": "ime5",
+    "lastName": "prezime5",
+    "address": {
+      "id": 5,
+      "city": "grad5",
+      "street": "ulica5"
+    },
+    "device": {
+      "id": 0,
+      "consumption": null
+    }
+  },
+  {
+    "id": 6,
+    "firstName": "ime6",
+    "lastName": "prezime6",
+    "address": {
+      "id": 6,
+      "city": "grad6",
+      "street": "ulica6"
+    },
+    "device": {
+      "id": 0,
+      "consumption": null
+    }
+  },
+  {
+    "id": 7,
+    "firstName": "ime7",
+    "lastName": "prezime7",
+    "address": {
+      "id": 7,
+      "city": "grad7",
+      "street": "ulica7"
+    },
+    "device": {
+      "id": 0,
+      "consumption": null
+    }
+  },
+  {
+    "id": 8,
+    "firstName": "ime8",
+    "lastName": "prezime8",
+    "address": {
+      "id": 8,
+      "city": "grad8",
+      "street": "ulica8"
+    },
+    "device": {
+      "id": 0,
+      "consumption": null
+    }
+  },
+  {
+    "id": 9,
+    "firstName": "ime9",
+    "lastName": "prezime9",
+    "address": {
+      "id": 9,
+      "city": "grad9",
+      "street": "ulica9"
+    },
+    "device": {
+      "id": 0,
+      "consumption": null
+    }
+  }
+]
