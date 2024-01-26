@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Device</title>
+</head>
+<body style="background-color:darkgrey;">
+<h1>Add Device</h1>
+
+<form th:action="@{/addDevice}" th:object="${device}" method="post">
+<!--    <label for="id">Device ID:</label>  -->
+<!--    <input type="text" id="id" th:field="*{id}" required/>-->
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" placeholder="yyyy-mm-dd" th:field="*{records[0].date}"  required/>
+
+    <label for="consumption">Consumption:</label>
+    <input type="text" id="consumption" th:field="*{records[0].consumption}" required/>
+
+    <button type="submit">Add Device</button>
+</form>
+
+</body>
+</html>

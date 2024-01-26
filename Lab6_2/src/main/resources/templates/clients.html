@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Devices</title>
+</head>
+<body style="background-color:darkgrey;">
+<h1>Devices</h1>
+
+<div th:each="client : ${clients}">
+    <p>Device ID: <span th:text="${client.device.id}"></span></p>
+    <p>Device Records:</p>
+    <ul>
+        <li th:each="record : ${client.device.records}">
+            <p>Date: <span th:text="${record.date}"></span></p>
+            <p>Consumption: <span th:text="${record.consumption}"></span></p>
+        </li>
+    </ul>
+    <p>Client ID: <span th:text="${client.id}"></span></p>
+    <p>Name: <span th:text="${client.firstName}"></span> <span th:text="${client.lastName}"></span></p>
+    <p>Address: <span th:text="${client.address.street}"></span> <span th:text="${client.address.city}"></span></p>
+    <hr />
+</div>
+</body>
+</html>
